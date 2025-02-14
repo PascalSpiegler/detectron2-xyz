@@ -177,7 +177,7 @@ setup(
         # NOTE: when updating fvcore/iopath version, make sure fvcore depends
         # on compatible version of iopath.
         "fvcore==0.1.6",  
-        "iopath>=0.1.7",
+        "iopath>=0.1.10",
         "future",  # used by caffe2
         "pydot",  # used to save caffe2 SVGs
         "dataclasses; python_version<'3.7'",
