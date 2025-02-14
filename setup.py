@@ -176,7 +176,7 @@ setup(
         # Lock version of fvcore/iopath because they may have breaking changes
         # NOTE: when updating fvcore/iopath version, make sure fvcore depends
         # on compatible version of iopath.
-        "fvcore==0.1.6",  
+        "fvcore==0.1.5.post20221221",  
         "iopath>=0.1.10",
         "future",  # used by caffe2
         "pydot",  # used to save caffe2 SVGs
