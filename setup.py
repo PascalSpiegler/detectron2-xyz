@@ -162,7 +162,7 @@ setup(
         # To tell if a package is pure-python, go to https://pypi.org/project/{name}/#files
         "Pillow>=7.1",  # or use pillow-simd for better performance
         "matplotlib",  # TODO move it to optional after we add opencv visualization
-        "pycocotools>=2.0.2",  # corresponds to https://github.com/ppwwyyxx/cocoapi
+        "pycocotools>=2.0.7",  # corresponds to https://github.com/ppwwyyxx/cocoapi
         # Do not add opencv here. Just like pytorch, user should install
         # opencv themselves, preferrably by OS's package manager, or by
         # choosing the proper pypi package name at https://github.com/skvark/opencv-python
@@ -176,7 +176,7 @@ setup(
         # Lock version of fvcore/iopath because they may have breaking changes
         # NOTE: when updating fvcore/iopath version, make sure fvcore depends
         # on compatible version of iopath.
-        "fvcore>=0.1.5,<0.1.6",  # required like this to make it pip installable
+        "fvcore==0.1.6",  
         "iopath>=0.1.7",
         "future",  # used by caffe2
         "pydot",  # used to save caffe2 SVGs
